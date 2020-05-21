@@ -1,3 +1,9 @@
+# NOTE!
+
+This fork implements a different use-case to the original plugin, and handles the case where the app ALREADY used WKWebView but is switching from the HTTP scheme to the FILE scheme.
+
+In this case, we need to move the localStorage across from the HTTP files to the files for the FILE scheme.
+
 # Migrate LocalStorage
 
 This plugin is an adaptation of
