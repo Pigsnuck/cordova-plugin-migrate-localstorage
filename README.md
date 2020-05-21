@@ -7,12 +7,9 @@ In this case, we need to move the localStorage across from the HTTP files to the
 # Migrate LocalStorage
 
 This plugin is an adaptation of
-[cordova-plugin-wkwebview-engine](https://github.com/apache/cordova-plugin-wkwebview-engine)
-to allow for the migration of LocalStorage and IndexedDB when using [cordova-plugin-ionic-webview]
-(https://github.com/ionic-team/cordova-plugin-ionic-webview).
-to persist LocalStorage data when migrating from `UIWebView` to `WKWebView`. All related
-files will be copied over automatically on first install so the user can simply pick up where they
-left of.
+[cordova-plugin-wkwebview-engine](https://github.com/jairemix/cordova-plugin-migrate-localstorage)
+to allow for the migration of LocalStorage when using [cordova-plugin-wkwebview-engine]
+(https://github.com/ionic-team/apache/cordova-plugin-wkwebview-engine) to persist LocalStorage data when migrating from the HTTP scheme to the FILE scheme using for apps already using WKWebView. All related files will be moved automatically on first install so the user can simply pick up where they left off.
 
 ## How to use
 
